@@ -1,0 +1,60 @@
+body {
+    font-size: 15px;
+    width: 1440px;
+
+}
+
+
+h1 {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 700px; 
+    
+}
+
+#header-main {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 400px;
+    color: hsl(300, 43%, 22%);
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+}
+
+
+
+#header {
+
+}
+
+
+.Ratings-Group {
+    position: absolute;
+    display: flex;
+    right: 0;
+    top: 0;
+    margin: 60px;
+    
+    
+}
+
+#Rating-1 {
+    color: hsl(300, 43%, 22%);
+    background: hsl(333, 80%, 67%);
+    margin: 20px;
+    
+}
+
+#Rating-2 {
+    color: hsl(300, 43%, 22%);
+    background: hsl(333, 80%, 67%);
+    margin: 20px;
+
+}
+
+#Rating-3 {
+    color: hsl(300, 43%, 22%);
+    background: hsl(333, 80%, 67%);
+    margin: 20px;
+}
+
