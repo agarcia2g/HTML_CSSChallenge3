@@ -1,6 +1,16 @@
 body {
     font-size: 15px;
     width: 1440px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
 
 }
 
@@ -15,12 +25,11 @@ h1 {
     font-family: 'Spartan', sans-serif;
     font-weight: 400px;
     color: hsl(300, 43%, 22%);
-    display: flex;   
-    flex-direction: column;
-    width: 30%;
+     width: 50%;
+     background: blue;
+     margin: 100px;
 
 }
-
 
 
 #header {
@@ -28,37 +37,42 @@ h1 {
 }
 
 
-.Ratings-Group {
+#Ratings-Group {
 
     display: flex;
     flex-direction: column;
-    
-    
-    
+    width: 70%;
+    margin: 100px;
+     
 }
 
-#Rating-1 {
+.Rating-1 {
     color: hsl(300, 43%, 22%);
     background: hsl(333, 80%, 67%);
-    margin: 7px;
     align-self: flex-start;
-    
-    
-    
+    margin: 7px;
+    padding-left: 40px;
+    padding-right: 40px;
+     
 }
 
-#Rating-2 {
+.Rating-2 {
     color: hsl(300, 43%, 22%);
     background: hsl(333, 80%, 67%);
-    margin: 7px;
     align-self: center;
+    margin: 7px;
+    padding-left: 40px;
+    padding-right: 40px;
 
 }
 
-#Rating-3 {
+.Rating-3 {
     color: hsl(300, 43%, 22%);
     background: hsl(333, 80%, 67%);
-    margin: 7px;
     align-self: flex-end;
+    margin: 7px;
+    padding-left: 40px;
+    padding-right: 40px;
+
 }
 
