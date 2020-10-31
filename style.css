@@ -1,8 +1,7 @@
 body {
     font-size: 15px;
     width: 1440px;
-    display: flex;
-    flex-direction: column;
+    font-family: 'Spartan', sans-serif;
 
 
 }
@@ -28,6 +27,7 @@ h1 {
      width: 50%;
      background: blue;
      margin: 100px;
+     
 
 }
 
@@ -53,6 +53,7 @@ h1 {
     margin: 7px;
     padding-left: 40px;
     padding-right: 40px;
+    border-radius: 10px;
      
 }
 
@@ -63,6 +64,7 @@ h1 {
     margin: 7px;
     padding-left: 40px;
     padding-right: 40px;
+    border-radius: 10px;
 
 }
 
@@ -73,6 +75,53 @@ h1 {
     margin: 7px;
     padding-left: 40px;
     padding-right: 40px;
+    border-radius: 10px;
 
+}
+
+.Customers  {
+
+
+    
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+#Customer-1   {
+    color: white;
+    background:  hsl(300, 43%, 22%);
+    padding: 40px;
+    margin: 10px;
+    border-radius: 10px;
+    align-self: flex-start;
+    justify-content: flex-start;
+    margin-top: 20px;
+
+
+}
+
+#Customer-2 {
+    color: white;
+    background:  hsl(300, 43%, 22%);
+    padding: 40px;
+    margin: 10px;
+    border-radius: 10px;
+    align-self: center;
+    margin-top: 35px;
+}
+
+#Customer-3 {
+    color: white;
+    background:  hsl(300, 43%, 22%);
+    padding: 40px;
+    margin: 10px;
+    border-radius: 10px;
+    align-self: flex-end;
+    margin-top: 100px;
+    
+    
 }
 
