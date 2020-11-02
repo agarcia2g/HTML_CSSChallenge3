@@ -47,20 +47,25 @@ h1 {
      
 }
 
+.space {
+    padding-left: 30px;
+}
+
 .Rating-1 {
     color: hsl(300, 43%, 22%);
-    background: hsl(333, 80%, 67%);
+    background: hsla(333, 80%, 67%, 0.2);
     align-self: flex-start;
     margin: 7px;
     padding-left: 40px;
     padding-right: 40px;
     border-radius: 10px;
-     
+ 
 }
 
 #Ratings-Group .Rating-1 {
     display: flex;
     align-items: center;
+
 }
 
 #Ratings-Group .Rating-2 {
@@ -75,7 +80,7 @@ h1 {
 
 .Rating-2 {
     color: hsl(300, 43%, 22%);
-    background: hsl(333, 80%, 67%);
+    background: hsla(333, 80%, 67%, 0.2);
     align-self: center;
     margin: 7px;
     padding-left: 40px;
@@ -86,7 +91,7 @@ h1 {
 
 .Rating-3 {
     color: hsl(300, 43%, 22%);
-    background: hsl(333, 80%, 67%);
+    background: hsla(333, 80%, 67%, 0.2);
     align-self: flex-end;
     margin: 7px;
     padding-left: 40px;
