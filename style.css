@@ -1,7 +1,7 @@
 #background {
     font-size: 15px;
     width: 1440px;
-    font-family: 'Spartan', sans-serif;
+    
     
 
 
@@ -17,24 +17,27 @@
 
 h1 {
     font-family: 'Spartan', sans-serif;
-    font-weight: 700px; 
+
     
 }
 
 #header-main {
-    font-family: 'Spartan', sans-serif;
-    font-weight: 400px;
+
+
     color: hsl(300, 43%, 22%);
      width: 50%;
-     background: blue;
-     margin: 100px;
-     
+     margin: 100px;    
+
+}
+
+#header-header {
+    font-size: 50px;
 
 }
 
 
 #header {
-
+   font-family: 'Spartan', sans-serif; 
 }
 
 
@@ -44,6 +47,7 @@ h1 {
     flex-direction: column;
     width: 70%;
     margin: 100px;
+    font-family: sans-serif;
      
 }
 
@@ -62,21 +66,13 @@ h1 {
  
 }
 
-#Ratings-Group .Rating-1 {
+#Ratings-Group > div {
     display: flex;
     align-items: center;
 
 }
 
-#Ratings-Group .Rating-2 {
-    display: flex;
-    align-items: center;
-}
 
-#Ratings-Group .Rating-3 {
-    display: flex;
-    align-items: center;
-}
 
 .Rating-2 {
     color: hsl(300, 43%, 22%);
@@ -101,14 +97,39 @@ h1 {
 }
 
 .Customers  {
-
-
     
     margin: 100px;
     display: flex;
     flex-direction: row;
+    font-family: sans-serif;
+
+}
+
+.group {
+    display: flex;
+}
+
+.name {
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.verified-buyer {
+    position: relative;
+    left: 96px;
+    bottom: 40px;
+    color: antiquewhite;
+}
 
 
+.Customers > div {
+    display: flex;
+    flex-direction: column;  
+
+}
+
+ .Customers img {
+    border-radius: 40px;
 }
 
 #Customer-1   {
