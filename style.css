@@ -42,6 +42,8 @@ h1 {
 
 .container #Ratings-Group {
     justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -49,10 +51,8 @@ h1 {
 
     display: flex;
     flex-direction: column;
-    width: 50%;
-    font-family: sans-serif;
-
-   
+    width: 50%; /* adding width makes site unresponsive */
+    font-family: sans-serif;  
 }
 
 .space {
@@ -105,9 +105,7 @@ h1 {
 }
 
 .Customers  {
-    
-  
-    display: flex;
+     display: flex;
     flex-direction: row;
     font-family: sans-serif;
     flex-wrap: wrap;
@@ -119,15 +117,16 @@ h1 {
 }
 
 .name {
-    margin-left: 30px;
+    margin-left: 25px;
     font-weight: bold;
+
 }
 
 .verified-buyer {
-    position: relative;
-    left: 96px;
-    bottom: 40px;
+    display: flex;
     color: antiquewhite;
+    justify-content: center;
+
 }
 
 
@@ -144,13 +143,14 @@ h1 {
 #Customer-1   {
     color: white;
     background:  hsl(300, 43%, 22%);
-    padding: 40px;
+    padding: 30px 80px 30px 80px;
     margin: 10px;
     border-radius: 10px;
     align-self: flex-start;
     justify-content: flex-start;
-    margin-top: 40px;
-    width: 23%;
+    margin-top: 30px;
+    width: 15%;
+
 
 
 }
@@ -158,23 +158,23 @@ h1 {
 #Customer-2 {
     color: white;
     background:  hsl(300, 43%, 22%);
-    padding: 40px;
+    padding: 30px 80px 30px 80px;
     margin: 10px;
     border-radius: 10px;
     align-self: center;
-    margin-top: 35px;
-    width: 23%;
+    margin-top: 25px;
+    width: 15%;
 }
 
 #Customer-3 {
     color: white;
     background:  hsl(300, 43%, 22%);
-    padding: 40px;
+    padding: 30px 80px 30px 80px;
     margin: 10px;
     border-radius: 10px;
     align-self: flex-end;
     margin-top: 75px;
-    width: 23%;
+    width: 15%;
     
 }
 
