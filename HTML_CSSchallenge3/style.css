@@ -1,0 +1,22 @@
+
+
+body {
+    background-color: hsl(257, 40%, 49%);
+    margin: 80px;
+}
+
+#title {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-family: 'Poppins', sans-serif;
+}
+
+#center-content{
+
+}
+
+#center-content > div {
+    display: flex;
+    flex-direction: column;
+}
