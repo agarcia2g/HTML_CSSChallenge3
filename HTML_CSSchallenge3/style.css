@@ -1,49 +1,62 @@
 
 
-body  {
-    background-color: hsl(257, 40%, 49%);
-    margin: 100px;
-    width: 1440px;
+
+body {
+    background: hsl(257, 40%, 49%);
 }
+
+
 
 #title {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+
     font-family: 'Poppins', sans-serif;
-    padding-bottom: 150px;
+     margin: 70px;
 }
 
-@media screen and (max-width: 375px) and (min-width: 50px) {
-    #center-content {
-        flex-direction: column;
-        
-        
+
+
+img {
+    width: 100%; 
+    height: auto;
+}
+
+section {
+margin: 70px auto;
+border: 10px solid black;
+}
+
+
+   
+.column {
+        width: 100%;
+        display: flex;
+       flex-direction: row; 
+
+       }
+   
+.col-1  {
+    width: 50%;
+
     }
-}
 
-#center-content{
-display: flex;
-flex-direction: row;
-width: 100%;
-}
-
+.col-2 {
+     width: 50%;
+    
+    }
+   
 
 
-/*#center-content > div {
-    display: flex;
-    flex-direction: column;
-    width: auto;
-}*/
 
 #center-text {
-    margin: 70px;
+
     color: white;
     font-family: 'Open Sans', sans-serif;
-    line-height: 30px;
+    line-height: 40px;
     text-align: left;
-
-    padding-right: 50px;
+    width: 100%; 
+    margin-top: 40px;
+    padding-left: 40px;
+    font-size: 1.5em;
 }
 
 p {
@@ -56,23 +69,59 @@ p {
 
  #button {
    width: 200px;
-   height: 50px;
-   margin: 70px;
+   height: 60px;
    border-radius: 250px; 
    outline: none;
    background-color: white;
    box-shadow: 15px;
-   position: relative;
-   top: -50px;
-   display: block;
    font-size: 15px;
    color: hsl(257, 40%, 49%);
-   
-
+   margin-top: 10px;
    
 }
 
-#center-button-text {
+#footer {
+    position: absolute;
+    right: 0;
+    margin: 50px;
 
 }
+
+@media screen and  (max-width: 925px) {
+
+
     
+    body {
+        width: auto;
+           
+    }
+
+    .column {
+        flex-direction: column;
+           
+    }
+
+    #center-text {
+        text-align: center;
+        padding-top: 30px;
+           
+    }
+
+    #center-image  {
+        width: 100
+        
+    }
+
+    section {
+        margin: 70px auto;
+        border: 10px solid black;
+        width: 100%;
+        }
+}
+
+
+
+
+
+
+
