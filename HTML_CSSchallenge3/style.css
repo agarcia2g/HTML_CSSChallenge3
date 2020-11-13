@@ -11,41 +11,33 @@ body {
 
     font-family: 'Poppins', sans-serif;
      margin: 70px;
-}
-
-
-
-img {
-    width: 100%; 
+    width: 50%;
     height: auto;
 }
 
+
+
+
 section {
 margin: 70px auto;
-border: 10px solid black;
 }
 
-
-   
+  
 .column {
         width: 100%;
         display: flex;
        flex-direction: row; 
-
        }
-   
+
+       
 .col-1  {
     width: 50%;
-
     }
 
 .col-2 {
-     width: 50%;
-    
+     width: 50%;    
     }
    
-
-
 
 #center-text {
 
@@ -59,12 +51,15 @@ border: 10px solid black;
     font-size: 1.5em;
 }
 
+#center-image > img {
+    width: 100%;
+}
+
 p {
      font-family: 'Poppins', sans-serif;
     opacity: 0.9;
     font-weight: lighter;
 }
-
 
 
  #button {
@@ -87,36 +82,88 @@ p {
 
 }
 
+
+
 @media screen and  (max-width: 925px) {
 
 
     
     body {
         width: auto;
+        margin: 0;
            
     }
 
     .column {
         flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
            
+    }
+
+    .col-1 {
+        width: 100%;
+    }
+
+    .col-2 {
+      width: 100%;  
     }
 
     #center-text {
         text-align: center;
         padding-top: 30px;
+        margin: 0 auto;
+        padding: 0;
+        margin-top: 3.5em;
            
     }
 
-    #center-image  {
-        width: 100
+    #center-image > img  {
+        width: 100%;
         
     }
 
     section {
-        margin: 70px auto;
-        border: 10px solid black;
+        margin:  0 auto;
         width: 100%;
         }
+
+    #button {
+        margin-top: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+     /*#footer > img{
+        position: absolute;
+        left: 0;
+        right: 0;
+        border: 2px solid black;
+        
+        }*/
+
+        footer  {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        #twitter {
+            display: block;
+            margin-top: 5em;
+        }
+
+
+    #title {
+        display: flex;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+        
+        }
+
+
+
 }
 
 
