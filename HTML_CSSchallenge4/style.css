@@ -1,5 +1,7 @@
 body {
-
+    background: blue;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
 }
 
 #container {
@@ -7,17 +9,56 @@ body {
 }
 
 .column {
-
+    display: flex;
+    flex-direction: row;
 }
 
 #col-1 {
-
+    background: white;
+    width: 100%;
 }
 
 #col-2 {
+    background: hsl(179, 56%, 36%);
+    width: 50%;
     
 }
 
 #col-3 {
-    
+    background: hsl(179, 62%, 43%);
+    width: 50%;   
+}
+
+.text {
+    margin: 2em;
+    text-align: left;
+}
+
+.header-1 {
+    color: hsl(179, 62%, 43%);
+}
+.header-2 {
+    color: hsl(71, 73%, 54%);
+}
+
+p {
+    color: hsl(218, 22%, 67%);
+    line-height: 2em;
+}
+
+.text-col-2  {
+    color: hsl(204, 43%, 93%);
+}
+
+.text-col-3 {
+    color: hsl(204, 43%, 93%);    
+}
+
+.text-col-li {
+    color: hsl(204, 43%, 93%); 
+    list-style-type: none;
+}
+
+button {
+    outline-style: none;
 }
